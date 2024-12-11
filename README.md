@@ -1,0 +1,1 @@
+# ai-practical-7th-sem
