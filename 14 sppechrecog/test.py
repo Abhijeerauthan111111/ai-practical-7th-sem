@@ -1,6 +1,6 @@
 import speech_recognition as sr
 
-def main():
+def speech_to_text():
     # Create a recognizer instance
     recognizer = sr.Recognizer()
     
@@ -8,7 +8,7 @@ def main():
     with sr.Microphone() as source:
         print("Adjusting for ambient noise... Please wait")
         # Adjust for ambient noise
-        recognizer.adjust_for_ambient_noise(source, duration=1)
+        recognizer.adjust_for_ambient_noise(source, duration=2)
         
         print("Please speak something...")
         # Listen for audio input
@@ -17,19 +17,16 @@ def main():
         try:
             # Use Google Speech Recognition to convert audio to text
             text = recognizer.recognize_google(audio)
-            print("\nYou said:", text)
-            
-            # Basic text processing
-            print("\nBasic text analysis:")
-            print("Number of words:", len(text.split()))
-            print("Number of characters:", len(text))
-            print("All uppercase:", text.upper())
-            print("All lowercase:", text.lower())
-            
+            print("You said:", text)
+            return text
         except sr.UnknownValueError:
             print("Sorry, could not understand the audio")
         except sr.RequestError as e:
-            print("Could not request results; {0}".format(e))
+            print(f"Could not request results; {e}")
 
 if __name__ == "__main__":
-    main()
+    print("Speech Recognition Program")
+    print("-------------------------")
+    
+    # Run the speech recognition
+    speech_to_text()
