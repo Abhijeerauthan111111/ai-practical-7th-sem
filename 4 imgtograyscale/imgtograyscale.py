@@ -1,9 +1,7 @@
 from PIL import Image
 
-input_image = "imgtograyscale\\input.jpg"  # Replace with your input image path
-output_image = "imgtograyscale\\output_grayscale.jpg"  # Replace with desired output path
-    
-
+input_image = "4 imgtograyscale\\input.jpg"  
+output_image = "4 imgtograyscale\\output_grayscale.jpg" 
 
 def convert_to_grayscale(input_path, output_path):
     try:

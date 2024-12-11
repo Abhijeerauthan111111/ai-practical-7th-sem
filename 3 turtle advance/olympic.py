@@ -1,11 +1,8 @@
 import turtle
 
-# Set up the screen
 screen = turtle.Screen()
 screen.title("Olympic Symbol")
 
-
-# Create and set up the turtle
 t = turtle.Turtle()
 t.width(6)
 t.speed(0)
@@ -39,6 +36,5 @@ draw_circle("green")
 # Draw red circle
 t.goto(120, 0)
 draw_circle("red")
-
 
 screen.mainloop()

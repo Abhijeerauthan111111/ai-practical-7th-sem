@@ -26,6 +26,11 @@ def run_quiz():
             "question": "Which element has the symbol 'Au'?",
             "choices": ["A. Pink Whale", "B. Amul Doodh", "C. Aurum", "D. Auntogin"],
             "correct": "C"
+        },
+        {
+            "question": "When will World War III start?",
+            "choices": ["A. 2036", "B. 2035", "C. 2037", "D. 2025"],
+            "correct": "D"
         }
     ]
 

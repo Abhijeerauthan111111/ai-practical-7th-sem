@@ -1,7 +1,6 @@
 import turtle
 import time
 
-# Set up the screen
 screen = turtle.Screen()
 screen.bgcolor("skyblue")
 t = turtle.Turtle()
@@ -42,7 +41,6 @@ for i in range(3):
     t.left(120)
 t.end_fill()
  
- 
 # Draw arms
 t.pensize(3)
 t.penup()
@@ -58,6 +56,4 @@ t.pendown()
 t.setheading(20)
 t.forward(70)
 
-# Hide turtle and display
-t.hideturtle()
 screen.mainloop()

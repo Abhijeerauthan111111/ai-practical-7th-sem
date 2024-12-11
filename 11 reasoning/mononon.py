@@ -50,7 +50,7 @@ def demonstrate_reasoning():
     
     # Adding exception
     non_mono.add_fact("penguin")
-    non_mono.add_fact("can_fly", False)  # Override previous default
+    non_mono.add_fact("can_fly", False) 
     print("Query after exception: Can it fly?", non_mono.query("can_fly"))
 
 if __name__ == "__main__":
