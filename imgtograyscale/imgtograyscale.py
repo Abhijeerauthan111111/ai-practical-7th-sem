@@ -10,6 +10,7 @@ def convert_to_grayscale(input_path, output_path):
         
         # Save the grayscale image
         grayscale_img.save(output_path)
+        grayscale_img.show()
         print(f"Image successfully converted and saved to {output_path}")
         
     except Exception as e:
