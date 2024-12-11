@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  #pip install matplotlib or pip install --user matplotlib
 # Data for the bar chart
 games = ['Pubg', 'Free Fire', 'Mine Craft', 'GTA-V']
 ratings = [8.5, 7.8, 4.5, 9.7]

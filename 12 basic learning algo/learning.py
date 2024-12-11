@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn import datasets, tree
-import pandas as pd
+import pandas as pd   #pip install numpy scikit-learn pandas or pip install --user numpy scikit-learn pandas
 
 # Decision Tree Implementation
 class DecisionTree:

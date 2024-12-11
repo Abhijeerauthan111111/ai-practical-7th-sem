@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np      #pip install numpy or pip install --user numpy
 
 # Activation function: Sigmoid
 def sigmoid(x):

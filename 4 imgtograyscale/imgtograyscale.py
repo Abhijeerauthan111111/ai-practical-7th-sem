@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image   #pip install pillow or pip install --user pillow
 
 input_image = "4 imgtograyscale\\input.jpg"  
 output_image = "4 imgtograyscale\\output_grayscale.jpg" 

@@ -1,4 +1,4 @@
-import speech_recognition as sr
+import speech_recognition as sr  #pip install SpeechRecognition pyaudio or pip install --user SpeechRecognition pyaudio
 def speech_to_text():
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:

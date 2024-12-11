@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np   #pip install numpy or pip install --user numpy
 
 # Create a 3D array (2 matrice with 3 rows and 4 columns each)
 arr_3d = np.array([
