@@ -2,7 +2,7 @@ import turtle
 
 t = turtle.Turtle()
 
-screen = turtle.Screen();
+screen = turtle.Screen()
 t.speed(0)  # Fastest speed
 
 t.left(120)     # Turn 120 degrees
