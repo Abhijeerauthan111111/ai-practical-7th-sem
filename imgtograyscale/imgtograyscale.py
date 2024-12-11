@@ -1,5 +1,10 @@
 from PIL import Image
 
+input_image = "imgtograyscale\\input.jpg"  # Replace with your input image path
+output_image = "imgtograyscale\\output_grayscale.jpg"  # Replace with desired output path
+    
+
+
 def convert_to_grayscale(input_path, output_path):
     try:
         # Open the image
@@ -16,9 +21,5 @@ def convert_to_grayscale(input_path, output_path):
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
-if __name__ == "__main__":
-    # Example usage
-    input_image = "imgtograyscale\\input.jpg"  # Replace with your input image path
-    output_image = "imgtograyscale\\output_grayscale.jpg"  # Replace with desired output path
-    
-    convert_to_grayscale(input_image, output_image)
+
+convert_to_grayscale(input_image, output_image)
